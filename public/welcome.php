@@ -35,7 +35,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     </div>
                     <?php
                     // Include config file
-                    require_once "./db/config.php";
+                    require_once "../db/config.php";
                     
                     // Attempt select query execution
                     $sql = "SELECT * FROM products";
